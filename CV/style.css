@@ -1,0 +1,72 @@
+@font-face {
+    font-family:"lemon milk regular";
+    src: url(Fonts/LEMONMILK-Bold.otf) format("openType");
+}
+html{
+    background-color: mintcream;
+}
+header{
+    border: 2px solid #585b56;
+    margin-bottom: 1%;
+    background-color: white;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    gap: 1%;
+}
+section{
+    background-color: white;
+    border: 2px solid #585b56;
+}
+h1{
+    font-size: 3rem;
+    font-family: "lemon milk regular";
+    text-align: center;
+}
+h2{
+    font-size: 1rem;
+    font-family: "lemon milk regular";
+}
+h3{
+    text-align: center;
+    font-family: "lemon milk regular";
+}
+.hoved {
+    text-align: left;
+    flex-basis: 80%;
+    padding: 2%;
+}
+.kontaktinfo {  
+    text-align: center;
+    flex-basis: 20%;
+}
+.bar{
+    width:100%;
+    border: 1px solid #585b56;
+    margin: 10px 0px;
+}
+.html{
+    width: 55%;
+    background-image: url(Bilder/Gradient3.jpg);
+    height: 10px;
+}
+.CSS{
+    width: 50%;
+    background-image: url(Bilder/Gradient2.jpg);
+    height: 10px;
+}
+.ILLUSTRATOR{
+    height: 10px;
+    width: 46%;
+    background-image: url(Bilder/Gradient.jpg);
+}
+footer{
+    background-color: white;
+    border: 2px solid #585b56;
+    margin-top: 1%;
+}
+img{
+    width: 60%;
+    height: auto;
+}
